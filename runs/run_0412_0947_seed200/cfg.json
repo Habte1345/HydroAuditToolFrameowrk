@@ -1,0 +1,5 @@
+{
+    "basin_file": null,
+    "batch_size": 2000,
+    "cache_data": true,
+    "camels_root": 

@@ -36,7 +36,7 @@ SCALER = {
     'output_std': np.array([3.62443672]),
 }
 
-camels_root = r"F:\CAMEL_Far\CAMELS_US"
+camels_root = r"F:\CAMEL_SI\CAMELS_US"
 
 def add_camels_attributes(camels_root: PosixPath, db_path: str = None):
     """Load catchment characteristics from txt files and store them in a sqlite3 table."""
