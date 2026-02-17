@@ -1,0 +1,26 @@
+@prefix hydro: <https://alabama-hydro.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hydro:Observation a owl:Class .
+
+hydro:Prediction a owl:Class .
+
+hydro:TimeStep a owl:Class .
+
+hydro:flowsTo a owl:ObjectProperty ;
+    rdfs:domain hydro:Reach ;
+    rdfs:range hydro:Reach .
+
+hydro:hasDischarge a owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+hydro:hasMaxCapacity a owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+hydro:hasPrecipitation a owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+hydro:Reach a owl:Class .
+

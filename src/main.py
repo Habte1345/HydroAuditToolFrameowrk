@@ -53,7 +53,7 @@ GLOBAL_SETTINGS = {
     'clip_norm': True,
     'clip_value': 1,
     'dropout': 0.4,
-    'epochs': 30,
+    'epochs': 2,
     'hidden_size': 256,
     'initial_forget_gate_bias': 5,
     'log_interval': 50,
